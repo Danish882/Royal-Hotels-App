@@ -11,17 +11,13 @@ class AppDrawer extends StatelessWidget {
       backgroundColor: AppColors.gray900,
       child: Column(
         children: [
-          // ----- HEADER (Upar wala box) -----
           DrawerHeader(
             decoration: const BoxDecoration(color: AppColors.gray800),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const RoyalHotelsTitle(
-                  fontSize: 22,
-                  textAlign: TextAlign.left,
-                ), // Left align ke liye
+                const RoyalHotelsTitle(fontSize: 22, textAlign: TextAlign.left),
               ],
             ),
           ),
@@ -60,13 +56,10 @@ class AppDrawer extends StatelessWidget {
     );
   }
 
-  // Drawer band karne ka professional function (har jagah copy-paste na karna pare)
   void _navigateClose(BuildContext context) {
     Navigator.pop(context);
-    // Yahan baad mein screen navigation ka code add hoga (jaise Rooms screen kholna)
   }
 
-  // Helper: Har menu item ka reusable style
   Widget _buildMenuItem(
     IconData icon,
     String title,
