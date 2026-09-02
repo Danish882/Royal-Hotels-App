@@ -14,6 +14,8 @@ class RoomListing extends StatelessWidget {
         'name': 'Presidential Suite',
         'rating': 4.8,
         'price': 200,
+        'description':
+            'Experience the pinnacle of luxury in our Presidential Suite. Features a king-size bed, private jacuzzi, ocean-view balcony, and 24/7 butler service. Perfect for VIP guests.',
       },
       {
         'image':
@@ -21,6 +23,8 @@ class RoomListing extends StatelessWidget {
         'name': 'Deluxe Room',
         'rating': 4.5,
         'price': 70,
+        'description':
+            'Comfort meets elegance in our Deluxe Room. Includes a plush queen bed, modern workspace, free high-speed Wi-Fi, and a rain shower. Ideal for business travelers.',
       },
       {
         'image':
@@ -28,6 +32,8 @@ class RoomListing extends StatelessWidget {
         'name': 'Executive Room',
         'rating': 4.2,
         'price': 95,
+        'description':
+            'Designed for the modern executive. Spacious room with a dedicated work area, ergonomic chair, complimentary minibar, and access to the executive lounge.',
       },
       {
         'image':
@@ -35,6 +41,8 @@ class RoomListing extends StatelessWidget {
         'name': 'VIP Penthouse',
         'rating': 4.9,
         'price': 350,
+        'description':
+            'Our crown jewel. The VIP Penthouse spans the entire top floor with 360-degree city views, a private cinema, marble bathroom, and a personal concierge.',
       },
     ];
     return Container(
